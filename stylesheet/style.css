@@ -1,9 +1,41 @@
+body {
+    font-family: Georgia, serif;
+    font-weight: 200;
+}
+
+h1{
+    text-align: center;
+    font-weight: bold;
+}
+
 nav {
     background-color: burlywood;
-    
+    margin: 4px 2px 8px 2px;
+    padding: 1.5% 0.8%;
 }
 
 nav ul {
     display: flex;									
     justify-content: space-around;
+}
+
+section {
+    margin: 4px 2px 8px 2px;
+    border: 0.2pt solid #cedddd;
+    padding: 1.5% 0.8%;
+    padding-left: 1.2%; 
+    padding-right: 1.2%; 
+
+    -webkit-border-radius: 5px; 
+
+   /* en navegadores antiguos de Mozilla, 
+   como Firefox.  */
+   -moz-border-radius: 5px;    
+
+   /* en navegadores modernos. */
+   border-radius: 5px; 
+
+   -webkit-box-shadow: 3px 3px 1px 0px rgba(235, 234, 234, 0.60);
+   -moz-box-shadow: 3px 3px 1px 0px rgba(235, 234, 234, 0.60);
+   box-shadow: 3px 3px 1px 0px rgba(235, 234, 234, 0.60);
 }
