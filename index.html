@@ -1,76 +1,73 @@
 <!DOCTYPE html>
 <html>
-<head>
-<title>My Curriculum Vitae</title>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width">
-<link rel="stylesheet" href="stylesheet/style.css">
-</head>
-<body>
-<h1>Mi Curriculum Vitae</h1>
-<header>
-    <h1>Ariel Vargas</h1>
-</header>
-<nav>
-    <ul>
-        <li><a href="#resumen">Resumen</a></li>
-        <li><a href="#experiencia">Experiencia</a></li>
-        <li><a href="#educacion">Educación</a></li>
-        <li><a href="#habilidades">Habilidades</a></li>
-        <li><a href="#proyectos">Proyectos</a></li>
-    </ul>
-</nav>
-<main>
-    <section id="resumen">
-    <h2>Resumen</h2>
-    <p>Breve descripción de tus habilidades y experiencia.</p>
-    </section>
-    <section id="experiencia">
-        <h2>Experiencia</h2>
-    </section>
-    <section id="educacion">
-        <h2>Educación</h2>
-    </section>
-    <section id="habilidades">
-        <h2>Habilidades</h2>
-    </section>
-    <section id="proyectos">
-        <h2>Proyectos</h2>
-    </section>
-</main>
-<footer>
-    <p>© Ariel Vargas - 2024</p>
-    <ul>
-    <li><a
-    href="https://www.linkedin.com/in/tunombre">LinkedIn</a></li>
-    <li><a href="https://github.com/tunombre">GitHub</a></li>
-    </ul>
-    <section>
-        <form>
-            <label for="nombre">Nombre Completo:</label>
-            <input type="text" id="nombre" name="nombre" required>
-            <label for="email">Correo Electrónico:</label>
-            <input type="email" id="email" name="email" required>
-            <label for="experiencia">Experiencia Laboral:</label>
-            <textarea id="experiencia" name="experiencia" rows="5"
-            required></textarea>
-            <label for="educacion">Educación:</label>
-            <textarea id="educacion" name="educacion" rows="5"
-            required></textarea>
-            <label>Habilidades Técnicas:</label><br>
-            <input type="checkbox" name="habilidades" value="HTML"> HTML
-            <input type="checkbox" name="habilidades" value="CSS"> CSS
-            <input type="checkbox" name="habilidades" value="JavaScript">
-            JavaScript
-            <label for="intereses">Intereses:</label>
-            <select id="intereses" name="intereses">
-            <option value="desarrollo">Desarrollo Web</option>
-            <option value="diseno">Diseño Gráfico</option>
-            <option value="marketing">Marketing Digital</option>
-            </select>
-            <button type="submit">Enviar</button>
-        </form>
-    </section>
-</footer>
-</body>
+    <head>
+        <title>My Curriculum Vitae</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="stylesheet/style.css">
+    </head>
+    <body>
+        <div id="sticky">
+            <h1>Mi Curriculum Vitae</h1>
+            <header>
+                <h1>Ariel Vargas</h1>
+            </header>
+            <nav>
+                <ul>
+                    <li><a href="#resumen">Resumen</a></li>
+                    <li><a href="#experiencia">Experiencia</a></li>
+                    <li><a href="#educacion">Educación</a></li>
+                    <li><a href="#habilidades">Habilidades</a></li>
+                    <li><a href="#proyectos">Proyectos</a></li>
+                </ul>
+            </nav>
+        </div>
+        
+        <main>
+            <section id="resumen">
+            <h2>Resumen</h2>
+            <p>Breve descripción de tus habilidades y experiencia.</p>
+            </section>
+            <section id="experiencia">
+                <h2>Experiencia</h2>
+            </section>
+            <section id="educacion">
+                <h2>Educación</h2>
+            </section>
+            <section id="habilidades">
+                <h2>Habilidades</h2>
+            </section>
+            <section id="proyectos">
+                <h2>Proyectos</h2>
+            </section>
+        </main>
+        <footer>
+            <div>
+                <h1>Contactame</h1>
+            </div>
+            
+            <ul>
+            <li><a href="https://www.linkedin.com/in/ariel-vargas-7b1a56277">LinkedIn</a></li>
+            <li><a href="https://github.com/Ariel-Vargas">GitHub</a></li>
+            </ul>
+            <section>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d980.4940267000842!2d-79.96536450981671!3d-
+                2.1471285895635805!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902d7301bceb4a73%3A0x21ecd4f5738c8c9c!2s
+                Centro%20De%20Informaci%C3%B3n%20Bibliotecario!5e0!3m2!1ses-419!2sec!4v1729545644732!5m2!1ses-419!2sec" 
+                width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </section>
+            <section>
+                <form>
+                    <label for="nombre">Nombre Completo:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                    <label for="email">Correo Electrónico:</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="empresa">Empresa:</label>
+                    <input type="text" id="empresa" name="empresa" required>
+                    <button type="submit">Enviar</button>
+                </form>
+            </section>
+        </footer>
+    </body>
 </html>
