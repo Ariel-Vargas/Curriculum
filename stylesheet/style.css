@@ -139,6 +139,22 @@ div#estudio {
     text-align: center;
 }
 
+#sobremi h2 {
+    text-align: center;
+}
+
+#sobremi video {
+    width: 500 px;
+    height: 540px;
+    
+}
+#sobremi div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
 section.principal, footer {
     margin: 4px 2px 8px 2px; 
 
@@ -171,16 +187,67 @@ section.principal, footer {
    box-shadow: 3px 3px 1px 0px rgba(235, 234, 234, 0.60);
 }
 
-form div {
-    position: relative;
-    width: 500px;
-    height: 50px;
-    margin: 0 auto;
-    padding: 1em;
-    box-sizing: border-box;
+/* footer */
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
 }
 
-footer {
-    display: grid;
+/* Styles for the links */
+#enlaces-referencias {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
 
+#enlaces-referencias li {
+    margin: 10px 0;
+}
+
+#enlaces-referencias a {
+    color: black;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+/* Styles for the map */
+#mapa {
+    margin: 20px;
+}
+
+/* Styles for the form */
+#formulario {
+    margin: 20px;
+    text-align: left;
+}
+
+#formulario form {
+    display: flex;
+    flex-direction: column;
+}
+
+#formulario label {
+    margin-top: 10px;
+}
+
+#formulario input, #formulario button {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#formulario button {
+    background-color: #f5f2ed;
+    color: black;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+#formulario button:hover {
+    background-color: #f8efe1;
 }
